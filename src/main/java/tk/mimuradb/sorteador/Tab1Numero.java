@@ -1,0 +1,20 @@
+package tk.mimuradb.sorteador;
+
+/**
+ * Created by everton on 11/07/2017.
+ */
+import android.support.v4.app.Fragment;
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
+public class Tab1Numero extends Fragment {
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        View rootView = inflater.inflate(R.layout.tab_numero, container, false);
+        return rootView;
+    }
+}
